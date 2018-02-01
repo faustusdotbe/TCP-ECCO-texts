@@ -19,7 +19,7 @@ if not os.path.exists(dir_out):
 
 
 output2 = io.open(dir_out+"/output2.csv","w")
-output2.write("TCP_ID,IMAGESET_ID")
+output2.write("TCP_ID,IMAGESET_ID\n")
 
 
 files = glob.glob(dir_in+"/*")
